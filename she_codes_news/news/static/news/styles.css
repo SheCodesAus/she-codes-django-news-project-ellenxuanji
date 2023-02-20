@@ -1,6 +1,8 @@
+
+
 .story-card {
     margin: 2px;
-    border: 1px solid #000;
+    border: 2px solid lightslategray;
     padding: 5px;
 }
 
@@ -83,4 +85,29 @@
     float: right;
     margin: 0 0 10px 10px;
     width: 50%;
+}
+
+
+form {
+    font-family: 'Montserrat Subrayada', sans-serif; 
+    font-size: large;
+    color: #8246af;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+input {
+    padding: 10px;
+    width: 150px;
+    display: block;
+    border-radius: 10px;
+    background-color: #8246af;
+    color: #fff7f0;
+    border: 1px solid #fff7f0;
+}
+
+input:hover {
+    font-weight: bold;
 }
